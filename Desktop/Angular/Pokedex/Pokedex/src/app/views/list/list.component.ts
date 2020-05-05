@@ -12,7 +12,7 @@ export class ListComponent implements OnInit {
     private pokeapi: PokeapiService
   ) { }
 
-
+  
   nameFilter = '';
   selectedPkm = null;
   //pokemonList = 
@@ -23,8 +23,8 @@ export class ListComponent implements OnInit {
   }
 
   get pkmSprite(){
-    const number = ('000' + this.selectedPkm.number).slice(-3);
-    return '//serebii.net/sunmoon/pokemon/025.png'
+    const numberPokemon = ('000' + this.selectedPkm.number).slice(-3);
+    return '//serebii.net/sunmoon/pokemon/001.png'
   }
 
 //É executado sempre que um componente é iniciado

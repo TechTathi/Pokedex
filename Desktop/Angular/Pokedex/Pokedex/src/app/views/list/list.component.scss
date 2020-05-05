@@ -1,9 +1,52 @@
-.pokedesc {
-  font-size: 24px;
-  .text {
-    color: green;
-  }
-  .subtext {
-    font-size: 16px;
-  }
+app-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  
+}
+.search-box{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  background-color: #2f3640;
+  border-radius: 40px;
+  height: 100px;
+  width: 260px;
+  padding: 10px;
+}
+
+.search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+#search-txt{
+  border: none;
+  background-color: #2f3640;
+  outline: none;
+  padding: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+
+
